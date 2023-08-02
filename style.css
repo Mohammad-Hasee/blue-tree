@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* heading section start here */
+header{
+    width: 100%;
+    height: 130px;
+    background-color: #CCCCCC;
+   /* border: 1px solid black;*/
+    box-sizing: border-box;
+}
+
+.header_inner{
+    width: 70%;
+    height: 100%;
+    background-color: #F5F5F5;
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+.header_inner h1{
+    margin: 0px;
+    padding: 20px 0px 0px 5px;
+    font-size: 38px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    font-family: "century gothic", arial, sans-serif;
+    color: #323232;
+}
+.header_inner h1 span{
+    color: #73F0FE;
+}
+.header_inner p{
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+    color: #999999;
+}
+.header_inner h1 a{
+    text-decoration: none;
+}
+/* heading section ending here */
+
+/* nav section start here */
+nav{
+    width: 100%;
+    height: 50px;
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    background-color:#CCCCCC;
+    box-sizing: border-box;
+}
+.nav_inner{
+    width: 70%;
+    height: 100%;
+   /* border: 1px solid black;*/
+    box-sizing: border-box;
+    background-color: #DDDDDD;
+    box-sizing: border-box;
+    margin: auto;
+}
+.nav_inner ul{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: black;
+   /* border: 1 px solid black;*/
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 30px;
+}
+.nav_inner ul li{
+    /*border: 1px solid black;*/
+    display: inline-block;
+    list-style-type: none;
+    margin: 15px;
+   /* padding: 10px;*/
+    color: black;
+    box-sizing: border-box;
+}
+.nav_inner ul li a{
+    background-color: #73F0FE;
+    padding: 8px;
+    color: white;
+    text-align: center;
+}
+/* nav section ending here */
+
+/* banner section start here */
+.banner{
+    width: 100%;
+    height: 200px;
+   /* border: 1px solid black;*/
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.banner_inner{
+    width: 70%;
+    height: 100%;
+    border: 10px solid gray;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+/* banner section ending here */
+
+/* main section start here */
+.main_section{
+    width: 100%;
+    height: 600px;
+   /* border: 1px solid black;*/
+    box-sizing: border-box;
+}
+.main_section_inner{
+    width: 70%;
+    height: 100%;
+   /* border: 1px solid black;*/
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+.latest_news{
+    width: 240px;
+    height: 230px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+.useful_links{
+    width: 240px;
+    height: 170px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 20px 0px 20px 0px;
+    padding: 5px 0px 0px 5px;
+    /*font-size: 10px;
+    line-height: 1.5;*/
+}
+.useful_links ul{
+    display: block;
+    padding: 0px;
+}
+
+.useful_links ul li{
+    display: block;
+    text-align: left;
+    list-style-type: circle;
+}
+.useful_links ul li a{
+    text-decoration: dashed;
+}
+.search_bar{
+    width: 240px;
+    height: 120px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+.aside_left{
+    width: 240px ;
+    height: 595px ;
+    float: left;
+    clear: right;
+   /* border: 1px solid black;*/
+    box-sizing: border-box;
+}
+.main_content_inner{
+    width: 790px;
+    height: 580px;
+    float: left;
+    clear: right;
+   /* border: 1px solid black;*/
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 15px 0px 0px 30px;
+}
+.main_content_inner ul{
+    display: block;
+    padding: 0px;
+}
+.main_content_inner ul li{
+    display: block;
+    text-align: left;
+    list-style-type: circle;
+}
+
+ /*footer section start here */
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: #beb3b3;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 40px;
+}
+/* footer section ending here */
+
